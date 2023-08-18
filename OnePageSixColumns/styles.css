@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300;500&display=swap');
+
+:root{}
+
+body{
+
+	text-align: center;
+	font-family: 'REM', sans-serif;
+
+	background-image:url(mond-kosmos-sterne-himmel.jpg);
+	background-position: fixed;
+	background-size:cover;
+	background-repeat: none;
+}
+
+h1,h2{
+		-webkit-text-stroke: .1px black;
+		color:white;
+}	
+
+h1{
+	font-size: 72px;
+}
+
+.container{
+	background-color:rgba(255,255,255,.5);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+
+	max-width: 75vw;
+
+
+	position: relative;
+	margin:0px auto;
+	padding: 10px;
+}
+
+.griditem{
+	margin: 10px;
+	text-align: left;
+}
+
+@media(max-width:600px){
+	.container{
+		grid-template-columns: 1fr;
+	}
+}

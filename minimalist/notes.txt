@@ -1,0 +1,14 @@
+Choose off whites and off blacks
+
+finding font awesome icons
+find appropriate icons for the topic - If you are a photographer, use cameras. If you design things, put design related images. 
+Use themed assets
+
+look at ads and try to reverse engineer the thought process behind it.
+
+
+Font awesome - After some time the icons might not work. 
+
+His tip! IF something doesnt work, simply just move on. 
+
+Try to make a color scheme by changing the colors arond. try a dark background with light text. Try a light background with dark text. Change the header and text colors.

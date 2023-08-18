@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/*Tried a bootstrap approach next, but it looks like they dropped support for the glyphicons, as well!!! Thats crazy
+
+@import	url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css');
+@import url("https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css")
+
+@font-face{
+	font-family:Bootstrap;
+	src:url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+}
+*/
+
+/*Troubleshooted this section a bit using bootstrap cdn and fontawesome, but it may be depreciated.
+@font-face{
+	font-family: FontAwesome;
+	src:url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.eot?#iefix)format('eot'),
+	url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.woff)format('woff'),
+	url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.ttf)format('truetype'),
+	url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.svg#FontAwesome)format('svg');
+}
+*/
+
+/*To use a glythicon, you must define the font face using @font-face. 
+Then inside of a section that you defined with some element, you must add in the font family
+Then add the code for the icon using content.
+*/
+
+:root{
+	--bgColor:#D0A9F5;
+	--txtColor:#3B3B3B;
+
+
+}
+
+body{
+
+	background-color:var(--bgColor);
+	color:var(--txtColor);
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+h1,h2{
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align: center;
+}
+
+h1{
+	letter-spacing:5px;
+	line-height: 150px;
+	font-size: 9rem;
+
+}
+/*
+Example of how to use the glyphicons
+p1:before{
+	font-family: "Bootstrap" ;
+	content: "\F59D";
+	font-size: 50px;
+}*/
+
+p1:before{
+	display: inline-block;
+	content:"";
+	background-image: url("../assets/heart.svg");
+	height: 50px;
+	width: 50px;
+	background-size: 50px 50px;
+
+}
+p2:before{
+	/*https://icons.getbootstrap.com/*/
+	display: inline-block;
+	content:"";
+	background: url("../assets/heart-fill.svg");
+	height: 50px;
+	width: 50px;
+	background-size: 50px 50px;
+
+}
+
+.white{
+	color:rgba(252,252,252,1.0);
+}
+
+.gridcontainer{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	gap:20px;
+	padding:0px 100px;
+}
+
+.griditem{
+	text-align: center;
+}
