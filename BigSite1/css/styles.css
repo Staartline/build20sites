@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300;400;500&display=swap');
+
+:root{
+	--white:rgba(254,254,254,1.0);
+	--black:#3B3B3B;
+	--sectionColor:pink;
+}
+
+body{
+	background-color:var(--black);
+	color:var(--white);
+	font-family: 'Asap', sans-serif;
+
+
+}
+
+h1, h2{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1{
+	letter-spacing: 5px;
+	font-size: 10em;
+}
+h2{
+	font-size: 3em;
+}
+
+.section{
+	margin: auto;
+	overflow:hidden;
+	padding: 10px;
+	width: 75%;
+}
+
+.first, .last{
+	background-color: var(--sectionColor);
+
+}
+
+.coloredtext h2{
+	color: var(--sectionColor);
+
+}
+
+.gridcontainer{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+
+	width: 75%;
+
+	margin: 20px auto;
+}
+
+.griditem{
+	min-width: 200px;
+	text-align: center;
+}
+
+.griditem p{
+	text-align: left;
+}
+
+.fa-solid{
+	font-size: 10rem;
+	margin: auto;
+	color: var(--sectionColor);
+}

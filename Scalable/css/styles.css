@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+:root{
+	--BGColor:#0B3861;
+	--TextColor:#EFF2FB;
+
+}
+
+body{
+	background-color:var(--BGColor);
+	color: var(--TextColor);
+	text-align: center;
+	font-family: 'ADLaM Display', cursive;
+}
+
+h1{
+	font-size: 8em;
+	letter-spacing: -8px;
+}
+
+header{
+	margin: auto;
+}
+
+.section{
+	padding: 10px;
+	text-align: justify;
+	text-transform: uppercase;
+
+
+}
+
+.section P {
+	width: 75%;
+	margin: auto;
+}
+
+h2{
+	text-align: CENTER;
+	font-size: 5em;
+	letter-spacing: -2px;
+}
+
+.sectype1{
+	background-color: pink;
+}

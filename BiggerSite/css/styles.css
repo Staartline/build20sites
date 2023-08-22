@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+:root{
+	--fontColor: black;
+	--headerColor:white;
+}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color:var(--fontColor);
+	padding: 0px;
+	margin:0px;
+}
+
+h1, h2{
+	text-transform:uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+header h1{
+	font-size: 10em;
+	color: var(--headerColor);
+	line-height: 150px;
+}
+.headerimg{
+	background-image: url("https://publicdomainpictures.net/pictures/390000/velka/sterne-astronomie-vintage-karte-1616004811TNf.jpg");
+	background-repeat:none;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 800px;
+	width: 100%;
+
+	overflow:hidden;
+
+}
+
+.section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+
+}
+
+.sectioncontent{
+	width: 75%;
+	text-align: justify;
+	background-color: rgba(255,255,255,.5);
+	padding:20px;
+}
+
+.secpic{
+	background-repeat:none;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 500px;
+	width: 100%;
+}
+
+.astrobg{
+	background-image:url("https://publicdomainpictures.net/pictures/410000/velka/astronomie-astrologie-vintage-alt-16280275856ya.jpg");
+}
+
+.cosmosbg{
+	background-image: url("https://publicdomainpictures.net/pictures/320000/velka/mond-kosmos-sterne-himmel.jpg");
+}
+
+.chartbg{
+	background-image: url("https://publicdomainpictures.net/pictures/410000/velka/astronomie-astrologie-vintage-alt-1628027671rUQ.jpg");
+}
+
+.mooncyclebg{
+	background-image: url("https://publicdomainpictures.net/pictures/410000/velka/astronomie-erde-mond-sonne-1628027287Ci3.jpg");
+}
